@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><b>Laavanya's portfolio</b></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about" arget="_blank">About Me </a></li>
+                    <li><a href="/Education.html" target="_blank">Education</a></li>
+                    <li><a href="/Clubs and Societies.html" target="_blank">Clubs and Societies</a></li>
+                    <li><a href="/contact me.html" target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello , My name is <span class="purple">Laavanya!</span>
+                <div>and I am an upcoming</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="https://drive.google.com/file/d/1UCVKcfn3SWsmZ-kGKYcAeYhhPSulyB6u/view?usp=sharing" target="_blank">Download Resume</a></button>
+                </div>
+            </div>
+            <div class ="rightsection">
+            <img src="Laavanya final.png" alt="Laavanya's photo">
+            </div>
+        </section>
+        <hr>
+        <section id="about" class="secondsection">  
+            <div class="about-container">
+                <div class="about-left">
+                    <h1>About Me</h1>
+                    <p>I am currently pursuing a Bachelor's degree in Information Technology from Indira Gandhi Delhi Technical University for Women, located in the vibrant city of Delhi.
+                    <br><br>
+                    Primarily, my focus lies on mastering the intricacies of Java, HTML, CSS, and JavaScript, which form the cornerstone of modern web development.
+                    <br><br>
+                    In addition to web development, I am delving into the exciting realm of machine learning, with a particular emphasis on Python. Exploring the algorithms and methodologies behind machine learning algorithms fascinates me, and I am constantly seeking to deepen my understanding in this rapidly evolving field.
+                    <br><br>
+                    Driven by a curiosity to explore the intersection of technology and creativity, I am committed to lifelong learning and continuous self-improvement. I look forward to leveraging my skills and knowledge to contribute positively to the ever-evolving landscape of technology.
+                    <br><br>
+                    Thank you for visiting my portfolio. Feel free to explore my projects and reach out if you'd like to connect or collaborate on any exciting ventures!</p>
+                </div>
+                <div class="about-right">
+                    <h3>Personal Information</h3><br>
+                    <ul>
+                        <li><strong>Name: </strong>  Laavanya Kushwaha</li>
+                        <li><strong>Age: </strong>  19</li>
+                        <li><strong>University: </strong>  Indira Gandhi Delhi Technical University for Women</li>
+                        <li><strong>Email Id: </strong> laavanya036btit23@igdtuw.ac.in</li>
+                        <li><strong>Availability: </strong>  Internship/Part-time</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <span class="social-account">Social Accounts:</span>
+                <a href="https://www.linkedin.com/in/laavanya-kushwaha-5748a5291/" target="_blank" class="social-button linkedin">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href=https://github.com/LaavKush target="_blank" class="social-button github">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Data analyst','Web developer',"Software developer"],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

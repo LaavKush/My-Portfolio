@@ -1,0 +1,293 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+    background-color: #10002B;
+    color:white;
+    font-family: 'Poppins', sans-serif;   
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #240046;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+    margin:0 23px;
+}
+
+nav ul li{
+    list-style:none;
+    margin:0 23px;   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;   
+}
+
+nav ul li a:hover{
+    color:rgb(186, 186, 249);  
+    font-size: 1.03rem; 
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2rem;
+    margin: 40px 0 0 80px;
+}
+
+.leftsection .btn{
+    padding:12px;
+    margin: 50px 20px 0 6px;
+    background:#10002B;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsection .btn a{
+    text-decoration: none;
+    color:white;   
+}
+
+.leftsection .btn a:hover{
+    color:rgb(221, 221, 221);  
+}
+
+
+.purple{
+    color:#C77DFF;
+}
+
+#element{
+    color:#C77DFF ;
+}
+
+.rightsection img{
+    width:70%;
+    margin:30px 0 0 25px;
+}
+
+main hr{
+    border:0;
+    background:#a725f3;
+    height:1px;
+    margin:120px 84px 60px;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+}
+
+
+.secondsection h1{
+    margin:40px 0 10px ;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-left {
+    flex: 1.4;
+    margin-top: 0.5px;
+}
+
+.about-right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.about-right h3 {
+    margin:80px 0 0 150px;
+}
+
+.about-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-right ul li {
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-account {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .social-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #0077B5; 
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 80px;
+  }
+  
+  .social-button.github {
+    background-color: #24292f; 
+  }
+  
+  .social-button i {
+    transition: color 0.3s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #005f91; 
+  }
+  
+  .social-button.github:hover {
+    background-color: #171b1f; 
+  }
+  
+  .social-button:hover i {
+    color: #fff;
+  }
+  
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0;
+    position: relative;
+  }
+  
+  .bullet {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff; 
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 8px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 9px; 
+    width: 2px;
+    height: 100%;
+    margin-top: 8px;
+    background-color: #ffffff; 
+  }
+  
+  .event {
+    flex: 1;
+  }
+  
+  .event h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .event p {
+    margin: 0;
+  }
+  
+  .map-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+ 
+  body .headings{
+    text-align: center;
+  }
+
+  body .headings #h1{
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  body .headings #h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+    margin-top: 5px;
+    margin-left: 505px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
+  
